@@ -80,25 +80,20 @@ body {
   padding-right: 100px;
 }
 
-#features {
-    padding: 50px 0;
+.parent-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
   }
-
-  .parent-list {
-    margin-bottom: 20px;
+  
+  .feature-image {
+    max-width: 20%; /* Gambar tidak akan melebihi lebar parent container */
+    height: auto;   /* Gambar akan menyesuaikan tinggi secara proporsional */
   }
-
-  @media (min-width: 768px) {
-    .parent-list {
-      display: flex;
-      align-items: stretch;
-    }
-
-    .parent-list .desc {
-      flex: 1;
-    }
-
-    .parent-list.meditasi {
-      flex-direction: row-reverse; /* Untuk membalikkan urutan di desktop */
-    }
+  
+  .desc {
+    max-width: 600px; /* Lebar maksimum konten deskripsi */
+    flex: 1;          /* Konten deskripsi akan mengambil sisa ruang yang tersedia */
   }
+  
