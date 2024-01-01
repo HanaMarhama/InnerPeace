@@ -7,7 +7,9 @@
   box-sizing: border-box;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Quicksand", sans-serif;
@@ -94,33 +96,9 @@ body {
     max-width: 600px; /* Lebar maksimum konten deskripsi */
     flex: 1;          /* Konten deskripsi akan mengambil sisa ruang yang tersedia */
   }
-
-/* content */
-#main {
-    transform: translate(0, 40%);
+  
+  
+  .row {
+    margin-top: 80px; /* Sesuaikan nilai sesuai kebutuhan */
+    
   }
-  
-  .parent-content {
-    display: flex;
-    align-items: center;
-    padding-left: 70px;
-    padding-right: 70px;
-    gap: 40px;
-  }
-  
- /* Ganti warna tombol */
-.btn {
-    background-color: #3498db; /* Warna latar belakang */
-    color: #fff; /* Warna teks */
-    border: 1px solid #3498db; /* Warna border */
-}
-
-/* Hover effect (opsional) */
-.btn:hover {
-    background-color: #2980b9; /* Warna latar belakang saat dihover */
-    border: 1px solid #2980b9; /* Warna border saat dihover */
-    color: #fff; /* Warna teks saat dihover */
-}
-
-  
-  
