@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  /* height: 400vh; */
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6fb;
+
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+/* navbar */
+
+.navbar-brand {
+    color: #F8F8FF;
+  }
+
+.navbar {
+  background-color: #87CEEB;
+  font-weight: bold;
+}
+
+.nav-link {
+    color: #F8F8FF;
+  }
+
+.nav-link:hover {
+    color: #0daae9;
+  }
+
+.collapse {
+  justify-content: flex-end;
+}
+
+/* dropdown menu */
+.dropdown-menu a {
+  color: black;
+}
+
+/* hero section */
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 5, 0.106), rgba(0, 0, 5, 0.5)), url("../assets/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero .content {
+  color: rgb(215, 215, 215);
+  text-align: center;
+}
+
+.hero .content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.hero .content p {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.parent-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .feature-image {
+    max-width: 20%; /* Gambar tidak akan melebihi lebar parent container */
+    height: auto;   /* Gambar akan menyesuaikan tinggi secara proporsional */
+  }
+  
+  .desc {
+    max-width: 600px; /* Lebar maksimum konten deskripsi */
+    flex: 1;          /* Konten deskripsi akan mengambil sisa ruang yang tersedia */
+  }
+
+/* content */
+#main {
+    transform: translate(0, 40%);
+  }
+  
+  .parent-content {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    gap: 40px;
+  }
+  
+ /* Ganti warna tombol */
+.btn {
+    background-color: #3498db; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    border: 1px solid #3498db; /* Warna border */
+}
+
+/* Hover effect (opsional) */
+.btn:hover {
+    background-color: #2980b9; /* Warna latar belakang saat dihover */
+    border: 1px solid #2980b9; /* Warna border saat dihover */
+    color: #fff; /* Warna teks saat dihover */
+}
+
+  
+  
