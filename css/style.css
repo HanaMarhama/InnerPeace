@@ -133,7 +133,7 @@ body {
 }
 
 .desc2 p {
-  text-align: left; /* Align text to the left for Artikel feature */
+  text-align: left;
 }
 
 /* About Us Section Styling */
@@ -147,7 +147,7 @@ body {
   margin: 0 auto;
 }
 
-/* Smooth Scrolling */
+/* Scrolling */
 html {
   scroll-behavior: smooth;
 }
