@@ -22,7 +22,10 @@ body {
   display: flex;
   width: 100%;
   flex-direction: column;
+  padding-top: 70px;
 }
+
+
 
 /* navbar */
 
@@ -102,3 +105,24 @@ body {
     margin-top: 80px; /* Sesuaikan nilai sesuai kebutuhan */
     
   }
+
+  .card img {
+    width: 100%;
+    max-height: 400px; /* Atur tinggi maksimum sesuai kebutuhan */
+    object-fit: cover;
+  }
+  
+  .card {
+    height: 100%; /* Sesuaikan tinggi card sesuai kebutuhan */
+    margin-bottom: 10px;
+  }
+  
+  .card-body {
+    text-align: center; /* Untuk membuat teks di tengah card */
+  }
+
+  .row {
+    margin-top: 10px; /* Sesuaikan nilai untuk mengurangi jarak antara navbar dan card */
+  }
+  
+  

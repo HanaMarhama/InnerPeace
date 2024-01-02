@@ -96,4 +96,58 @@ body {
     max-width: 600px; /* Lebar maksimum konten deskripsi */
     flex: 1;          /* Konten deskripsi akan mengambil sisa ruang yang tersedia */
   }
-  
+
+ /* Hero Section Styling */
+.hero {
+  background-color: #ecf0f1; /* Change the background color as per your design */
+  padding: 50px;
+  text-align: center;
+}
+
+/* Features Section Styling */
+#features {
+  background-color: #f9f9f9; /* Change the background color as per your design */
+  padding: 50px 0;
+}
+
+/* Adjust margin for the title */
+#features h2 {
+  margin-bottom: 20px; /* You can adjust this value as needed */
+}
+
+.parent-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.parent-list img {
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.desc1,
+.desc2 {
+  max-width: 500px;
+}
+
+.desc2 p {
+  text-align: left; /* Align text to the left for Artikel feature */
+}
+
+/* About Us Section Styling */
+#about-us {
+  background-color: #e0f7fa; /* Change the background color as per your design */
+  padding: 50px 0;
+}
+
+.desc3 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
